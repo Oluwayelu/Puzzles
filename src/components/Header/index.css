@@ -1,0 +1,17 @@
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  nav {
+    padding: 10px 200px;
+  }
+}

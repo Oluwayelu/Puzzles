@@ -1,0 +1,32 @@
+.level_main {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.btn_group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.level_btn {
+  color: #669bec;
+  border: none;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
+}
+
+.active {
+  color: white;
+  box-shadow: 0 0 0 2px #669bec;
+  background-color: #669bec;
+}

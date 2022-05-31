@@ -1,0 +1,15 @@
+.logo_main {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.primary {
+  color: #669bec;
+}
+
+.invert {
+  transform: scale(-1, 1);
+}

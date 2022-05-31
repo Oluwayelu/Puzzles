@@ -1,0 +1,46 @@
+.level_main {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.img_group {
+  display: grid;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, auto);
+}
+
+.active {
+  color: white;
+  box-shadow: 0 0 0 2px #669bec;
+  background-color: #669bec;
+}
+
+.white_shadow {
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tile_img {
+  background: #669bec;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
