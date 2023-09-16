@@ -1,10 +1,8 @@
-import { Welcome } from "pages";
-import { screen } from "@testing-library/react";
-
-import renderWrapper from "utils/test-utils";
+import Welcome from "pages/Welcome";
+import { render, screen } from "utils/test-utils";
 
 test("renders welcome page header", async () => {
-  renderWrapper(<Welcome />);
-  const linkElement = screen.getByText(/welcome page/i);
-  expect(linkElement).toBeVisible();
+  render(<Welcome />);
+
+  expect(screen.getByText(/welcome page/i)).toBeVisible();
 });

@@ -1,15 +1,6 @@
-.level_main {
-  width: 100%;
-  text-align: center;
-}
-
-.title {
-  font-size: 20px;
-}
-
 .img_group {
   display: grid;
-  gap: 15px;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(2, auto);
@@ -43,4 +34,16 @@
   height: 150px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tile_img {
+    width: 200px;
+    height: 200px;
+  }
 }

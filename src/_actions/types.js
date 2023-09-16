@@ -1,4 +1,6 @@
 export const START_GAME = "START_GAME";
+export const PAUSE_GAME = "PAUSE_GAME";
+export const STOP_GAME = "STOP_GAME";
 export const RESTART_GAME = "RESTART_GAME";
 
 export const SET_TILES = "SET_TILES";
@@ -10,4 +12,6 @@ export const MOVE = "MOVE";
 
 export const PREGAME = "PREGAME";
 export const PLAYING = "PLAYING";
+export const PAUSE = "PAUSE";
+export const STOP = "STOP";
 export const WON = "WON";

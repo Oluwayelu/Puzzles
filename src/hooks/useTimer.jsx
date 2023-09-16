@@ -9,10 +9,13 @@ const useTimer = () => {
     setSeconds(0);
   };
   const onStart = () => {
-    onStop();
     timer.current = setInterval(() => {
       setSeconds((sec) => sec + 1);
     }, 1000);
+  };
+
+  const onPause = () => {
+    clearInterval(timer.current);
   };
 
   const secToTime = (secs) => {
@@ -30,6 +33,7 @@ const useTimer = () => {
   return {
     onStart,
     onStop,
+    onPause,
     time: secToTime(seconds),
   };
 };

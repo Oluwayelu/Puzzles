@@ -1,0 +1,26 @@
+.board {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  outline: 5px solid #669bec;
+}
+
+.options {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(37, 36, 36, 0.7);
+}
+
+.options button {
+  border: none;
+  font-weight: 500;
+  padding: 10px 50px;
+  border-radius: 10px;
+}

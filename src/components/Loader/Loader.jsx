@@ -1,9 +1,11 @@
-import "./index.css";
+import "./loader.css";
 
 const Loader = () => {
   return (
     <div className="loader">
-      <div className="spinner" />
+      <div className="container-box">
+        <div className="box" />
+      </div>
     </div>
   );
 };

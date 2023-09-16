@@ -2,7 +2,7 @@ import { Logo } from "components";
 import { WELCOME } from "navigation/routes";
 import { Link } from "react-router-dom";
 
-import "./index.css";
+import "./header.css";
 
 const Header = ({ time }) => {
   return (

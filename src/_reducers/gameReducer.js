@@ -16,6 +16,16 @@ const gameReducer = (state, { type, payload }) => {
     case actions.START_GAME:
       return { ...state, status: actions.PLAYING };
 
+    case actions.PAUSE_GAME:
+      return { ...state, status: actions.PAUSE };
+
+    case actions.STOP_GAME:
+      return {
+        ...state,
+        status: actions.PREGAME,
+        tiles: getTiles(state.gridSize),
+      };
+
     case actions.RESTART_GAME:
       return { ...state, status: actions.PREGAME };
 

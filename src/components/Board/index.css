@@ -1,9 +1,0 @@
-.play_btn, .refresh_btn {
-  width: 100px;
-  height: 100px;
-  border: none;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

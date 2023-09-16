@@ -1,0 +1,94 @@
+.container {
+  width: 100%;
+  max-width: 768px;
+  min-height: 100vh;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  min-height: 90vh;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding: 5px 0 10px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-btn-end {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.tile {
+  position: absolute;
+  list-style: none;
+  background: #669bec;
+  font-size: 20px;
+}
+
+.tile-num {
+  position: absolute;
+  /* top: 5px;
+  right: 5px; */
+  padding: 5px;
+  font-size: 10px;
+  color: #669bec;
+  border-radius: 20%;
+  background-color: white;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #669bec;
+}
+
+.btn-white {
+  color: #669bec;
+  background-color: white;
+}
+
+.btn-error {
+  color: white;
+  background-color: red;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 20px;
+  }
+}
+

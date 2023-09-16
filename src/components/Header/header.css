@@ -1,0 +1,29 @@
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(24, 23, 23);
+  z-index: 1000;
+}
+
+nav button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px;
+  background-color: #669bec;
+}
+/* 
+@media (min-width: 768px) {
+  nav {
+    padding: 10px 200px;
+  }
+} */
